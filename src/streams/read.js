@@ -1,4 +1,4 @@
-import { fileURLToPath } from "url";
+import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { createReadStream } from "node:fs";
 import { stdout } from "node:process";

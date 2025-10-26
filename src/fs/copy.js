@@ -1,6 +1,6 @@
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-import { readdir, mkdir, copyFile, access } from "fs/promises";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { readdir, mkdir, copyFile, access } from "node:fs/promises";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const originalFolder = join(__dirname, "files");

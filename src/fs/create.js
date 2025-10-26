@@ -1,6 +1,6 @@
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-import { writeFile } from "fs/promises";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { writeFile } from "node:fs/promises";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const __filename = join(__dirname, "files", "fresh.txt");
